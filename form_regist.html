@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Rgistration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="card p-3">
+                    <fieldset>
+                        <legend><h1 class="font-weight-bold">Student Registration Form</h1></legend>
+                        <div class="c-date">
+                            <label class="l-date" style="padding: 10px;">Date</label>&nbsp;
+                            <input type="date">
+                        </div>
+                        <form action="">
+                        <h2>Personal Information</h2> <hr>
+                          <div class="row">
+                            <div class="col-25">
+                              <label>Name</label>
+                            </div>
+                            <div class="col-75">
+                              <input type="text" name="firstname" placeholder="Your name..">
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-25">
+                              <label>Date Or Birth</label>
+                            </div>
+                            <div class="col-75">
+                              <input type="text" name="lastname" placeholder="Date of Birth..">
+                            </div>
+                          </div>
+                          <h2 style="margin-top: 2em;">Contact Information</h2> <hr>
+                          <div class="row">
+                            <div class="col-25">
+                              <label>Address</label>
+                            </div>
+                            <div class="col-75">
+                              <input type="text" name="lastname" placeholder="Address..">
+                            </div>
+                          </div>
+                          <div class="row" style="margin-top: 6px; width: 100%;;">
+                            <table style="width: 100%;">
+                                <thead></thead>
+                                <tbody>
+                                    <tr>
+                                       <td>
+                                           <div class="col-25">
+                                               <label>City</label>
+                                           </div>
+                                           <div class="col-75" style="padding-left: 68px;">
+                                               <select class="select-table">
+                                                   <option value="">Bandung</option>
+                                               </select>
+                                           </div>
+                                       </td>
+                                       <td style="padding-left: 20px;">
+                                           <div class="col-25">
+                                               <label>Provinsi</label>
+                                           </div>
+                                           <div class="col-75" style="padding-left: 68px;">
+                                               <select class="select-table">
+                                                   <option value="">Jawa Barat</option>
+                                               </select>
+                                           </div>
+                                       </td>
+                                     </tr>
+                                    <tr>
+                                       <td>
+                                           <div class="col-25">
+                                               <label>ZipCode</label>
+                                           </div>
+                                           <div class="col-75" style="padding-left: 68px;">
+                                               <select class="select-table">
+                                                   <option value="">00000</option>
+                                               </select>
+                                           </div>
+                                       </td>
+                                       <td style="padding-left: 20px;">
+                                           <div class="col-25">
+                                               <label>Country</label>
+                                           </div>
+                                           <div class="col-75" style="padding-left: 68px;">
+                                               <select class="select-table">
+                                                   <option value="">Indonesia</option>
+                                               </select>
+                                           </div>
+                                       </td>
+                                     </tr>
+                                    <tr>
+                                       <td>
+                                           <div class="col-25">
+                                               <label>Phone</label>
+                                           </div>
+                                           <div class="col-75" style="padding-left: 68px;">
+                                               <input type="text" name="firstname" placeholder="Phone..">
+                                           </div>
+                                       </td>
+                                       <td style="padding-left: 20px;">
+                                           <div class="col-25">
+                                               <label>Email</label>
+                                           </div>
+                                           <div class="col-75" style="padding-left: 68px;">
+                                               <input type="text" name="firstname" placeholder="Email..">
+                                           </div>
+                                       </td>
+                                     </tr>
+                                </tbody>
+                            </table>
+                            <div class="col-25">
+                                 <label style="font-size: 15px;">Membership Type</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="radio" value="ruguler">Reguler
+                                <input type="radio" value="premium">Premium
+                                <input type="radio" value="vip">VIP
+                            </div>
+                          </div>
+                          <h2 style="margin-top: 2em;">Course Information</h2> <hr>
+                          <div class="row">
+                            <div class="col-25">
+                                <label>Coourse Name</label>
+                              </div>
+                              <div class="col-75">
+                                <input type="text" name="firstname" placeholder="Course name..">
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-25">
+                                 <label style="font-size: 15px;">Pyment Detail</label>
+                              </div>
+                              <div class="col-75">
+                                <input type="radio" value="ruguler">Cash
+                                <input type="radio" value="premium">Cheque
+                                <input type="radio" value="vip">Credit Card
+                              </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-25">
+                                <label>Comments</label>
+                              </div>
+                              <div class="col-75">
+                                <input type="text" name="firstname" placeholder="Comments..">
+                              </div>
+                          </div>
+                          <div class="row" style="margin-top: 30px;">
+                            <table style="width: 100%;">
+                                <thead style="display: none;">
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <input type="text" style="height: 4em;" class="footer-form" name="firstname" placeholder="Student's Signature">
+                                        </td>
+                                        <td>
+                                            <input type="text" style="height: 4em;" class="footer-form" name="firstname" placeholder="Validated By">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                          </div>
+                          <div class="row" style="margin-top: 10px;">
+                            <input type="submit" value="Submit">
+                          </div>
+                        </form>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
